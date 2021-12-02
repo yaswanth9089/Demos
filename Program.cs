@@ -8,13 +8,13 @@ namespace Demos
         {
             Console.Write("Enter a number: ");
             int i = Convert.ToInt32(Console.ReadLine());
-            if (i % 2 == 0)
+            if (i % 2 == 1)
             {
-                Console.WriteLine("it is even");
+                Console.WriteLine("it is odd");
             }
             else
             {
-                Console.WriteLine("It is odd");
+                Console.WriteLine("It is even ");
             }
 
 
